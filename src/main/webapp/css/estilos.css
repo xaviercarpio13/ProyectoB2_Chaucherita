@@ -1,0 +1,44 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f8f8; /* Color de fondo principal */
+  color: #333; /* Color de texto principal */
+}
+
+header {
+  background-color: #fff; /* Color de fondo del encabezado */
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para el encabezado */
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #555; /* Color de enlaces */
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Transición suave para el color del enlace */
+}
+
+nav a:hover {
+  color: #007bff; /* Cambio de color al pasar el mouse sobre el enlace */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333; /* Color de fondo del pie de página */
+  color: #fff; /* Color de texto del pie de página */
+  padding: 10px;
+  text-align: center;
+}
+
+/* Otros estilos adicionales según tus necesidades */

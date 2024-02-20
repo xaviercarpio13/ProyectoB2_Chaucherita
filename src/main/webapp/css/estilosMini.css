@@ -1,0 +1,260 @@
+/*Fuentes*/
+@font-face {
+    font-family: "LibreBodoni-B";
+    src: url(../font/LibreBodoni-Bold.ttf);
+  }
+  @font-face {
+    font-family: "LibreBodoni-R";
+    src: url(../font/LibreBodoni-Regular.ttf);
+  }
+  
+  body {
+    margin: 40px;
+    background: #7f7fd5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #91eae4,
+      #86a8e7,
+      #7f7fd5
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to top,
+      #91eae4,
+      #86a8e7,
+      #7f7fd5
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    background-attachment: fixed;
+    color: #333; /* Color de texto principal */
+  }
+  
+  .fondo {
+    background-color: #ffffff;
+    padding: 20px 20px;
+    border: 1px solid #9ca0a8;
+    border-radius: 15px;
+    margin-top: 40px;
+  }
+  
+  /***********Botones*********************/
+  .btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #011c73;
+    --bs-btn-border-color: #011c73;
+  }
+  
+  /**********Bordes************************/
+  .transacciones {
+    padding: 0.5%;
+    margin: 0.5%;
+    width: 100%;
+    border-radius: 25px;
+    border: solid 2px #9ca0a8;
+    color: #100e58;
+  }
+  
+  /*************Letras****************/
+  .subtitulos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .mini-titulos {
+    font-size: 20px;
+  }
+  .mini-info {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  .suma {
+    color: #2b772b;
+  }
+  .resta {
+    color: #aa0000;
+  }
+  
+  /************Titulo y settings**********************/
+  .principal {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .principal a i:hover {
+    color: #0d6efd;
+  }
+  
+  .principal a i {
+    font-size: 35px; /* Tamanio de los iconos */
+    color: #000;
+  }
+  
+  .iconos {
+    font-size: 40px; /* Tamanio de los iconos */
+    color: #011c73;
+  }
+  
+  /**********BARRA*******************/
+  .barra {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    margin: 10px 70px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    background-color: #ced7f8;
+  }
+  
+  .barra a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .barra a:hover {
+    color: #0d6efd;
+  }
+  
+  .font-titulo {
+    font-family: LibreBodoni-R, arial, sans-serif;
+  }
+  
+  #descripcion {
+    resize: none;
+  }
+  .bloqueado {
+    background-color: #ccc;
+  }
+  
+  .money-input {
+    border: none; /* Quita todos los bordes predeterminados */
+    border-bottom: solid 1px #9ca0a8;
+    border-radius: 0px;
+    font-size: 30px;
+  }
+  
+  .config {
+    margin-right: 40px;
+  }
+  
+  .titulo {
+    font-size: 2.2rem;
+  }
+  
+  .card:hover {
+    background-color: #b4ccf9;
+  }
+  
+  .opciones-dsh {
+    margin-right: 35px;
+  }
+  
+  .opciones-dsh a:hover {
+    color: #0d6efd;
+  }
+  
+  .resumen {
+    /*display: flex; alinear como columnas*/
+    gap: 70px;
+    margin: 70px;
+  }
+  
+  .cuentas div {
+    margin-bottom: 10px;
+  }
+  
+  .resumen-categorias div {
+    margin-bottom: 10px;
+  }
+  
+  .borde {
+    border: 2px solid #0d6efd;
+    border-radius: 15px;
+    background-color: #ffffff;
+  }
+  
+  main section div h6 {
+    margin-top: 15px;
+  }
+  
+  .botones-trans {
+    margin-top: 40px;
+  }
+  
+  .opciones {
+    display: flex;
+    /*gap: 100px;*/
+    justify-content: center;
+  }
+  .opciones a {
+    display: flex;
+    height: 150px;
+    width: 150px;
+  
+    justify-content: center;
+    align-content: center;
+  }
+  .opciones a i {
+    font-size: 5em;
+    height: 30px;
+    margin-top: 20px;
+  }
+  
+  .movimientos {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .fecha {
+    margin-left: 2rem;
+  }
+  .btnGyC {
+    width: 35%;
+  }
+  .btnFecha button {
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+  }
+  
+  .container-contenido label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+  }
+  
+  .card-categoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+  }
+  
+  /*ingresos*/
+  .anchoIngreso {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
